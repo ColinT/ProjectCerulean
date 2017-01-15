@@ -73,7 +73,6 @@ if(move != 0) {
     } else if(menuPosition &gt; array_length_1d(menuOptions) - 1) {
         menuPosition = 0;
     }
-    show_debug_message(string(menuPosition));
 }
 
 if(keyboard_check_pressed(vk_enter)) {
