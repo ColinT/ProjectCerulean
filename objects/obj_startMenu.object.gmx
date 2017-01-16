@@ -124,7 +124,6 @@ for(menuIndex = 0; menuIndex &lt; array_length_1d(menuOptions); menuIndex++) {
 }
 
 draw_sprite(sprite_index, 0, x + 16, y + (menuPosition * spacingPixels) - (sprite_height/2));
-show_debug_message(string(y + (menuPosition * spacingPixels)));
 </string>
           </argument>
         </arguments>
